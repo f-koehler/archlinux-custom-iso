@@ -21,3 +21,7 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
 systemctl enable pacman-init.service choose-mirror.service
 systemctl set-default multi-user.target
+
+OLD="$(pwd)"
+cd /root/installer && poetry install
+cd $OLD
