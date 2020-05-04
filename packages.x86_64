@@ -19,6 +19,7 @@ ethtool
 exfat-utils
 f2fs-tools
 fsarchiver
+git
 gnu-netcat
 gpm
 gptfdisk
@@ -56,7 +57,9 @@ parted
 partimage
 ppp
 pptpclient
+python-poetry
 refind-efi
+reflector
 reiserfsprogs
 rp-pppoe
 rsync
@@ -78,4 +81,3 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
-reflector
