@@ -22,6 +22,10 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 systemctl enable pacman-init.service choose-mirror.service
 systemctl set-default multi-user.target
 
+git clone https://github.com/f-koehler/archlinux-installer.git /root/installer
+
 OLD="$(pwd)"
 cd /root/installer && poetry install
 cd $OLD
+
+echo "source /root/installer/.venv/bin/activate" >> /root/.bashrc

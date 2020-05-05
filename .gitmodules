@@ -1,3 +1,0 @@
-[submodule "airootfs/root/installer"]
-	path = airootfs/root/installer
-	url = git@github.com:f-koehler/archlinux-installer.git
