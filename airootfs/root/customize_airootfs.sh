@@ -22,6 +22,7 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 systemctl enable pacman-init.service choose-mirror.service
 systemctl set-default multi-user.target
 
+rm -rf /root/installer
 git clone https://github.com/f-koehler/archlinux-installer.git /root/installer
 
 OLD="$(pwd)"
