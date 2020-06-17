@@ -43,7 +43,7 @@ mdadm
 mtools
 nano
 ndisc6
-netctl
+networkmanager
 nfs-utils
 nilfs-utils
 nmap
